@@ -10,35 +10,28 @@
 
 <body>
 
-    <p id="demo1"></p>
-    <p id="demo2"></p>
 
 
     <script>
-        myFunction();
+       
 
-        function myFunction() {
-            var carName = "Volvo";
-            document.getElementById("demo1").innerHTML =
-                typeof carName + " " + carName;
-        }
-
-        document.getElementById("demo2").innerHTML =
-            typeof carName;
 
         a=123;
         // var a=123;
      
         function aFun() {
             // a = 456;
-            // var a = 456;
+            var a = 456;
             console.log("a in aFun:" + a);
 
             {
-                // var a = 789;
+                let a = 789;
                 console.log("a in aFun:" + a);
 
             }
+
+            console.log("a in aFun:" + a);
+
         }
 
         function bFun() {
